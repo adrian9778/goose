@@ -1,0 +1,22 @@
+{
+  "project": "goose",
+  "output_dir": "docs/sourceReader",
+  "current_unit": null,
+  "current_phase": "completed",
+  "completed_units": [
+    "00-docs-style-guide.md",
+    "01-简单框架-系统骨架.md",
+    "02-简单例子-全路径走读.md",
+    "03-详细逐步说明-主链路拆解.md",
+    "04-核心模块与类关系.md",
+    "05-API与接口设计.md",
+    "06-配置与数据流.md",
+    "07-状态机与并发.md",
+    "README.md"
+  ],
+  "started_at": "2026-11-17",
+  "verified_at": "2026-11-18",
+  "baseline": "main@71dd9a9aa2344247a51bc349f4d0b97c2dbff4bd",
+  "notes": "刷新验证完成（2026-11-18）：基准 == 当前 HEAD，0 提交漂移。全库 verify 145 处行号引用全部回核通过、0 失效路径、0 未解析；6 处歧义候选经上下文消歧全部命中正确文件。CodeGraph 抽查 reply/start_reply/turn/run_machine/create_state_machine/build_state_machine/step/run/ExtensionManager/AcpProviderConfig/ClientRequest/AcpProvider/SessionToolConfirmationState/ActiveTurnGuard 定义行全部与文档 +N 一致。覆盖审计 15/15 crate 至少一篇引用，无新增能力缺口。已补 sr_tools.py、UPDATE-SPEC.md、coverage-inventory.md。运行期 LRU 驱逐与取消时序未实测，07 已标 [待运行验证]。 记法升级：全库绝对行号→符号+偏移（161 处正文/索引 + 55 处裸续引用），反向逐条回核通过，0 剩余绝对行号引用。 记法升级完成：全库 166 处 file·Symbol+N（含源码索引、调用表、偏移表、续引用）全部转成符号+偏移，反向逐条回核 164 处有效引用 100% 通过（2 处为规范模板示例）。0 处剩余绝对行号引用。 调用关系表增强：03 篇调用表两侧均补文件前缀（调用方 `文件·符号+off`、被调用方 `文件·符号`），并加调用点偏移说明；00 规范篇更新调用关系记法。全部记法校验通过。",
+  "notation": "symbol+offset (file.rs · Symbol+N)"
+}

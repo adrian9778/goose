@@ -1,0 +1,68 @@
+{
+  "units": [
+    {
+      "id": "00",
+      "file": "00-docs-style-guide.md",
+      "level": "meta",
+      "title": "规范与定位约定",
+      "status": "completed",
+      "phase": "completed"
+    },
+    {
+      "id": "01",
+      "file": "01-简单框架-系统骨架.md",
+      "level": "L1",
+      "title": "简单框架：系统骨架",
+      "status": "completed",
+      "phase": "completed"
+    },
+    {
+      "id": "02",
+      "file": "02-简单例子-全路径走读.md",
+      "level": "L2",
+      "title": "简单例子：全路径走读",
+      "status": "completed",
+      "phase": "completed"
+    },
+    {
+      "id": "03",
+      "file": "03-详细逐步说明-主链路拆解.md",
+      "level": "L3",
+      "title": "详细逐步说明：主链路拆解",
+      "status": "completed",
+      "phase": "completed"
+    },
+    {
+      "id": "04",
+      "file": "04-核心模块与类关系.md",
+      "level": "L4",
+      "title": "核心模块与类关系",
+      "status": "completed",
+      "phase": "completed"
+    },
+    {
+      "id": "05",
+      "file": "05-API与接口设计.md",
+      "level": "L4",
+      "title": "API 与接口设计",
+      "status": "completed",
+      "phase": "completed"
+    },
+    {
+      "id": "06",
+      "file": "06-配置与数据流.md",
+      "level": "L4",
+      "title": "配置与数据流",
+      "status": "completed",
+      "phase": "completed"
+    },
+    {
+      "id": "07",
+      "file": "07-状态机与并发.md",
+      "level": "L4",
+      "title": "状态机与并发",
+      "status": "completed",
+      "phase": "completed"
+    }
+  ]
+}
